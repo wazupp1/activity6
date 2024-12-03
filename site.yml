@@ -88,9 +88,3 @@
     package:
       name: samba
       state: latest
-
-  - name: start and enable samba
-    service:
-      name: samba
-      state: started
-      enabled: true
